@@ -27,3 +27,4 @@ class BaseModel():
             '__class__': self.__class__.__name__,
             'updated_at': datetime.isoformat(self.updated_at)
         })
+        return dictionary
