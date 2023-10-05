@@ -18,7 +18,7 @@ class BaseModel():
     def save(self):
         """Updates updated_at with the current datetime"""
         self.updated_at = datetime.now()
-    
+
     def to_dict(self):
         """Returns a dictionary containing all keys/values"""
         dictionary = self.__dict__.copy()
