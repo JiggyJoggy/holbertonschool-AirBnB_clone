@@ -24,7 +24,7 @@ class BaseModel():
         dictionary = self.__dict__.copy()
         dictionary.update({
             'created_at': datetime.isoformat(self.created_at),
-            '__class__': self.__class__.__name__,
-            'updated_at': datetime.isoformat(self.updated_at)
+            'updated_at': datetime.isoformat(self.updated_at),
+            '__class__': self.__class__.__name__
         })
         return dictionary
