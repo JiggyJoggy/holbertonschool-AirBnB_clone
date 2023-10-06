@@ -18,7 +18,7 @@ class HBNBCommand(cmd.Cmd):
         EOF command to exit the program (Ctrl+D)
         """
         return True
-    
+
     def emptyline(self):
         """Print nothing if line is empty"""
         return False
