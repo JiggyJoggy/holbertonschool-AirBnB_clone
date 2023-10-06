@@ -25,5 +25,6 @@ class HBNBCommand(cmd.Cmd):
         """Print nothing if line is empty"""
         pass
 
+
 if __name__ == '__main__':
     HBNBCommand().cmdloop()
