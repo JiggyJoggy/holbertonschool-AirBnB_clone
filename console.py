@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Console module"""
+"""Console module for HBNBCommand"""
 import cmd
 
 
