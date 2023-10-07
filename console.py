@@ -4,7 +4,11 @@ import cmd
 
 
 class HBNBCommand(cmd.Cmd):
-    """HBNBCommand class for the console using cmd"""
+    """Class HBNBCommand
+    Args:
+        cmd (console)): cmd.Cmd
+    Returns:
+        True: creates loop"""
     prompt = "(hbnb) "
 
     def do_quit(self, arg):
