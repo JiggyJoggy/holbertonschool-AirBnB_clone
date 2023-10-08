@@ -7,7 +7,7 @@ from datetime import datetime
 class BaseModel():
     """Defines all common attributes/methods for other classes"""
     def __init__(self, *args, **kwargs):
-        if kwargs and kwargs > 0:
+        if kwargs and len(kwargs) > 0:
             for key, value in kwargs.items():
                 if key != "__class__":
                     if key in ["created_at", "updated_at"]:
