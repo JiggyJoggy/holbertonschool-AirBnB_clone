@@ -11,14 +11,14 @@ class HBNBCommand(cmd.Cmd):
         True: creates loop"""
     prompt = "(hbnb) "
 
-    def do_quit(self, arg):
+    def do_quit(self, *arg):
         """
         Quit command to exit the program
         """
         print("Exiting...")
         return True
 
-    def do_EOF(self, arg):
+    def do_EOF(self, *arg):
         """
         EOF command to exit the program (Ctrl+D)
         """
