@@ -9,20 +9,18 @@ class HBNBCommand(cmd.Cmd):
         cmd (console)): cmd.Cmd
     Returns:
         True: creates loop"""
-    prompt = "(hbnb) "
+    prompt = "(hbnb)"
 
     def do_quit(self, *arg):
         """
         Quit command to exit the program
         """
-        print("Exiting...")
         return True
 
     def do_EOF(self, *arg):
         """
         EOF command to exit the program (Ctrl+D)
         """
-        print("Exiting...")
         return True
 
     def emptyline(self):
