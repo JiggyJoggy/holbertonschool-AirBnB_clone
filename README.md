@@ -1,2 +1,1 @@
-HBNB Project
-Jagger & Will
+Jagger
