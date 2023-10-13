@@ -41,3 +41,9 @@ Use the command ``help`` followed by a command listed underneath here, for docum
 
 * ``update``: Updates the class name and id
   * ``Syntax: update <class name> <id> <attribute name> <attribute value>``
+
+# Tests
+Currently, only test_base_model.py has been tested as there aren't other files within this build.
+```
+python3 -m unittest tests/test_models/test_base_model.py
+```
