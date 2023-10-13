@@ -11,10 +11,18 @@ class FileStorage():
 
     def all(self):
         return self.__objects
-    
+
     def new(self, obj):
         self.__objects[f"{obj.__class__.__name__}.{obj.id}"] = obj
-    
+
     def save(self):
         """Placeholder"""
         pass
+
+    def reload(self):
+        """Placeholder"""
+        try:
+            pass
+
+        except:
+            pass
